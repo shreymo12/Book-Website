@@ -1,0 +1,23 @@
+h1,h2{
+    
+    color:black;
+    text-align: center;
+}
+
+.header{
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
